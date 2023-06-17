@@ -1,0 +1,2 @@
+couleur footer : rgb(2, 36, 43)
+couleur titre : rgb(42, 134, 187)

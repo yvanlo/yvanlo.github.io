@@ -1,0 +1,495 @@
+/*HEADER*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Avenir, sans-serif;
+}
+
+
+.notary_icon{
+    height: 70px;
+    width: 70px;
+}
+.title{
+    display: flex;
+    background-color: silver;   
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.subtitle{
+    width: 100%;
+    margin: auto;
+}
+
+h1, h2 {
+    font-family: fangsong;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+h1{
+    color: black;
+    font-size: 25px;
+}
+
+h2{
+    color: black;
+    font-size: 20px;
+    font-style: italic;
+}
+
+nav{
+    width: 100%;
+    background-color: silver;
+    border: 1px white solid;
+    z-index:2;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+}
+
+nav ul li{
+    list-style-type: none;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+nav a{
+    font-size: 20px;
+    font-family: fangsong;
+    display: block;
+    text-decoration: none;
+    color: white;    
+    height: 100%;
+    padding-top: 12px;
+    
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;    
+    height: 50px;
+}
+
+/*animation menu*/
+
+nav li:hover{
+    background-color: white;
+}
+nav a:hover{
+    color: black;
+}
+
+/*FOOTER*/
+
+footer{
+    background-color: rgb(2, 36, 43);
+    padding-top: 20px;
+}
+
+/*footer first part*/
+
+.first_part{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+
+}
+
+.contact_footer p{
+    font-family: fangsong;
+    line-height: 30px;
+    color: white;
+}
+
+.boutonfb, .boutonin{
+    height: 30px;
+	width: 30px;
+	margin-left: 15px;
+	background-color: black;
+	border: 1px white solid;
+	margin-bottom: 30px;
+	margin-top: 0px;
+}
+
+.boutonin{
+    margin-right: 15px;
+}
+
+.boutonc{
+    background-color: black;
+	border: 1px white solid;
+    height: 30px;
+}
+
+.bouton_contact{
+    font-family: fangsong;
+    text-decoration: none;
+	text-transform: uppercase;
+    color: white;
+	font-size: 11px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.social_media{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/*footer second part*/
+
+.second_part{
+    display: flex;
+    justify-content: space-around;
+    background-color: grey;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.second_part a, .second_part p{
+    font-family: fangsong;
+    text-decoration: none;
+    color: rgb(2, 36, 43);
+    font-size: 15px;
+}
+
+/*animation bouton au passage de la souris*/
+
+.second_part a p:hover{
+    color: white;
+}
+
+/*HOME*/
+.block_page{
+    background-color: silver;
+    padding-bottom: 30px;
+}
+
+.banner{
+    width: 100%;
+}
+
+.image_article{
+    width: 100%;
+}
+
+h3{
+    font-size: 25px;
+    font-family: fangsong;
+    color: black;
+    text-align: center;
+    /*margin-top: 100px;*/
+    margin-bottom: 30px;
+}
+
+.block_page h4{
+    color: black;
+    text-align: center;
+    font-family: fangsong;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /*text-shadow: 2px 4px 3px rgb(42, 134, 187);*/
+}
+
+h5{
+    font-size: 20px;
+    font-family: fangsong;
+    font-style: oblique;
+    color: black;
+    margin-bottom: 15px;
+}
+
+#article_background{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    opacity: 70%;
+}
+
+.div_article_background{
+    position: relative;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.superpose
+{
+    position: absolute;
+	top: 0px;
+    left: 0px;
+    right: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.arrow{
+    height: 80px;
+    width: auto;
+    margin-top: 50px;
+    transform: rotate(-25deg);
+}
+
+.notary_article{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+p{
+    color: black;
+    line-height: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+    text-align: justify;
+
+}
+
+/*animation home*/
+
+.arrow:hover{
+    height: 90px;
+    transition-duration: 300ms;
+    width: auto;
+}
+
+
+/*#article_background:hover{
+    width: 100%;
+    height: auto;
+    opacity: 50%;
+    
+}*/
+
+/*onglet présentation*/
+.bloc_page_presentation{
+    background-color: silver;
+    padding-top: 200px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.bloc_page_presentation p{
+    color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+}
+
+.bloc_page_presentation h2{
+    color: black;
+    margin-bottom: 30px;
+    font-size: 30px;
+    /*text-shadow: 2px 4px 3px rgb(42, 134, 187);*/
+}
+
+.bloc_page_presentation h3{
+    font-size: 20px;
+    font-style: italic;
+}
+
+.picture_presentation{
+    display: flex;
+    justify-content: space-evenly;
+    height: 400px;
+    width: auto;
+    background-color: white;
+}
+
+.presentation_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.video h3{
+    margin-top: 50px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    color: black;
+}
+
+.video{
+    text-align: center;
+}
+
+body{
+    padding-top: 0px;
+}
+
+/*onglet tarif*/
+
+.bloc_page_tarif{
+    background-color: silver;
+    padding-top: 200px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.bloc_page_tarif h2{
+    color: black;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.bloc_page_tarif h3{
+    color: black;
+    font-size: 20px;
+    /*padding-bottom: 30px;*/
+    margin-top: 50px;
+    font-style: italic;
+
+}
+
+.bloc_page_tarif p{
+    color: black;
+}
+
+.bloc_page_tarif ul{
+    text-align: center;
+    color: black;
+}
+
+.bloc_page_tarif li{
+    list-style-type: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+
+hr{
+    width: 30%;
+    margin: auto;
+    color: black;
+}
+
+.tariff_download{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.bouton_tariff_download{
+    background-color: black;
+	border: 1px white solid;
+    height: 25px;
+    width: 20%;
+    margin: auto;
+}
+
+.a_tariff_download{
+    font-family: fangsong;
+    text-decoration: none;
+	text-transform: uppercase;
+    color: white;
+	font-size: 12px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/*onglet contact*/
+
+.bloc_page_contact{
+    padding-top: 150px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-color: silver;
+}
+
+.bloc_page_contact h2{
+    color: black;
+    padding-bottom: 30px;
+    font-size: 30px;
+}
+
+form{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    
+}
+
+input{
+    width: 100%;
+    border: 1px rgb(2, 36, 43) solid;
+    margin-bottom: 30px;
+    height: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+textarea{
+    width: 100%;
+    border: 1px rgb(2, 36, 43) solid;
+    margin-bottom: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+select {
+    font-size: 17px;
+    width: 100%;
+    border: 1px rgb(2, 36, 43) solid;
+    color: rgb(2, 36, 43);
+    margin-bottom: 30px;
+    height: 22px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+input::placeholder {
+    color: rgb(2, 36, 43);
+    text-align: center;
+    font-size: 17px;
+    background-color: lightgray;
+}
+
+textarea::placeholder {
+    color: black;
+    text-align: center;
+    font-size: 17px;
+    background-color: lightgray;
+}
+
+.bouton_send{
+    background-color: black;
+	border: 1px white solid;
+    height: 30px;
+    width: 10%;
+    margin: auto;
+}
+
+.a_send{
+    font-family: fangsong;
+    text-decoration: none;
+	text-transform: uppercase;
+    color: white;
+	font-size: 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
